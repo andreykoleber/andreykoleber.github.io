@@ -79,6 +79,18 @@
     width: 300px!important
 }
 
+.section-kit-composition_title_row {
+ padding-bottom: 1%;   
+}
+
+.star {
+    color: red;
+}
+
+.first-price {
+    text-decoration: line-through;
+}
+
 .production-section-video {
      padding-bottom: 50%;   
 }
