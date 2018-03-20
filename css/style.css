@@ -79,9 +79,13 @@
     width: 300px!important
 }
 
+.section-kit-composition {
+  background: #dfddec;
+}
 
 .section-kit-composition_title_row {
   margin-bottom: 2%;
+  padding-top: 2%;
 }
 
 .section-kit-composition-discount {
@@ -103,7 +107,6 @@
 }
 
 .section-all-abount-business-in-video-format {
-  background: #f1f1f1;
 }
 
 .section-all-abount-business-in-video-format-row-title {
@@ -238,6 +241,12 @@
 
 .how-we-work-section {
     padding-top: 20px;
+    margin: 0 auto;
+
+}
+
+.how-we-work-section, 
+.how-we-work-section-background {
     background: #f1f1f1;
 }
 
@@ -370,4 +379,14 @@
 
 .big-width {
     width: 1200px!important
+}
+
+.slider-container {
+ max-width: 520px;
+ margin: 20px auto;
+}
+
+.slider-img {
+  max-width: 100%;
+  height: auto;
 }
