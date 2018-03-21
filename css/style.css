@@ -68,19 +68,22 @@
     color: #e84c3d
 }
 
+.production-section-wrapper {
+  background: #ddd;
+}
 .production-section {
     padding-top: 30px;
-    background: url(../i/favicons/header-bottom-line.png) top no-repeat
+    background: url(../i/favicons/header-bottom-line.png) top no-repeat;
 }
 
 .production-section__thumbnail {
     position: relative;
+    margin-top: 11%;
     left: 50px;
     width: 300px!important
 }
 
 .section-kit-composition {
-  background: #dfddec;
 }
 
 .section-kit-composition_title_row {
@@ -93,9 +96,12 @@
 }
 
 .section-kit-composition-btn {
-    margin-right: 40px;
-    padding: 15px 30px;
-    font-size: 20px!important
+  line-height: 16px;
+  margin-top: 9px;
+  margin-right: 40px;
+  padding: 15px 30px;
+  border-radius: 6px;
+  font-size: 20px!important
 }
 
 .star {
@@ -103,28 +109,37 @@
 }
 
 .first-price {
-    text-decoration: line-through;
+  text-decoration: line-through;
+  margin-left: 34px;
 }
 
-.section-all-abount-business-in-video-format {
+.section-all-about-business-in-video-format {
+  background: #ddd;
 }
 
-.section-all-abount-business-in-video-format-row-title {
-  padding-top: 2%;
+.section-all-about-business-in-video-format-row-title {
+  padding-top: 3%;
 }
 
-.section-all-abount-business-in-video-format-row {
-  margin-top: 3%;
+.section-all-about-business-in-video-format-first-row {
+  margin-top: 5%;
   margin-bottom: 3%;
+}
+
+.section-all-about-business-in-video-format-second-row {
+  margin-top: 4%;
+  padding-bottom: 4%;
 }
 
 
 .production-section-video {
-     padding-bottom: 50%;
+     padding-bottom: 60%;
 }
 
+
 .production-section-get-discount {
-    padding-bottom: 3%;
+  padding-bottom: 25px;
+  padding-top: 17px;
 }
 
 .production-section__thumbnail p,
@@ -135,6 +150,7 @@
 .stickers_production img {
     max-height: 300px
 }
+
 
 .stickers_form {
     margin-top: 20px
@@ -220,7 +236,11 @@
 }
 
 .about-us-section {
-    padding-bottom: 20px
+    padding-bottom: 20px;
+}
+
+.about-us-section-title {
+  padding-top: 2%;
 }
 
 .about-us-section__description {
@@ -242,15 +262,16 @@
 .how-we-work-section {
     padding-top: 20px;
     margin: 0 auto;
-
+    background: #ddd;
 }
 
-.how-we-work-section, 
-.how-we-work-section-background {
-    background: #f1f1f1;
+.how-we-work-section-image {
+  margin-top: 10px;
 }
+
 
 .footer-section {
+    background: url(../i/favicons/header-bottom-line.png) top no-repeat;
     font-size: 20px;
     padding-bottom: 20px;
     display: table;
@@ -258,14 +279,18 @@
 }
 
 .section-make-money-on-celebration-get-discount {
-  padding-bottom: 3%;
+  padding-bottom: 2%;
+  padding-top: 2%;
+
 }
 
 .section-make-money-on-celebration_thumbnail {
   position: relative;
+  top: 53px;
   left: 50px;
-  width: 300px!important
-} 
+  width: 300px!important;
+}
+
 
 
 .section-make-money-on-celebration_row_title {
@@ -290,15 +315,14 @@
 
 }
 
-.footer-section,
-.footer-section__background {
-    background: #f1f1f1
-}
+
 
 .footer-section-btn {
+    line-height: 16px;
     margin-top: -9px;
     margin-right: 40px;
     padding: 15px 30px;
+    border-radius: 6px;
     font-size: 20px!important
 }
 
@@ -373,6 +397,10 @@
     font-size: 20px
 }
 
+.text-intend {
+    margin-left: 57px;
+}
+
 .btn-complement {
     font-size: 13px
 }
@@ -389,4 +417,18 @@
 .slider-img {
   max-width: 100%;
   height: auto;
+}
+
+.slider-nav-container {
+  max-width: 150px;
+  margin: 20px auto;
+}
+
+.slider-nav-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.vk-button {
+    margin-top: 19px;
 }
