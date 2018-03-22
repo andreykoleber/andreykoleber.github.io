@@ -409,25 +409,30 @@
     width: 1200px!important
 }
 
+.slider-item {
+  text-align: center;
+}
+.slider-item a {
+  display: inline-block;
+  margin: 0 auto;
+}
 .slider-container {
  max-width: 520px;
  margin: 20px auto;
 }
 
 .slider-img {
-  max-width: 100%;
-  height: auto;
+  width: auto;
+  height: calc(50vh - 75px);
+  vertical-align: middle;
+  margin: 0 auto;
 }
 
-.slider-nav-container {
-  max-width: 150px;
-  margin: 20px auto;
+.slick-prev:before, .slick-next:before {
+  color: #ddd;
 }
 
-.slider-nav-img {
-  max-width: 100%;
-  height: auto;
-}
+
 
 .vk-button {
     margin-top: 19px;

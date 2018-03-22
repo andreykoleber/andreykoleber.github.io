@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/fa.css">
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     <link rel="stylesheet" href="css/style.css">
@@ -43,7 +42,7 @@
   <div class="container-non-responsive">
     <div class="logo-container">
       <a href="#" class="logo" data-toggle="modal" data-target="#orderCallForm">
-      <img src="i/favicons/logo.png" alt="" width="334" height="90">
+      <img src="i/favicons/logo.png" alt="" width="500" height="90">
     </a>
     </div>
     <nav class="nav">
@@ -127,19 +126,59 @@
         <div class="slider-container">
           <div class="slider">
             <div class="slider-item">
-              <div><a href="#" data-toggle="modal" data-target="#complementMiniModal"><img class="slider-img" src="i/favicons/2.1.jpg" alt=""></a></div>
+                <a href="#" data-toggle="modal" data-target="#modal-slider-image" data-whatever="i/favicons/slider1.jpg">
+                  <img class="slider-img" src="i/favicons/slider1.jpg" alt="">
+                </a>
             </div>
             <div class="slider-item">
-              <div><a href="#" data-toggle="modal" data-target="#complementMiniModal"><img class="slider-img" src="i/favicons/2.2.jpg" alt=""></a></div>
+                <a href="#" data-toggle="modal" data-target="#modal-slider-image" data-whatever="i/favicons/slider2.jpg">
+                  <img class="slider-img" src="i/favicons/slider2.jpg" alt="">
+                </a>
             </div>
             <div class="slider-item">
-              <div><a href="#" data-toggle="modal" data-target="#complementMiniModal"><img class="slider-img" src="i/favicons/2.3.jpg" alt=""></a></div>
+                <a href="#" data-toggle="modal" data-target="#modal-slider-image" data-whatever="i/favicons/slider3.jpg">
+                  <img class="slider-img" src="i/favicons/slider3.jpg" alt="">
+                </a>
             </div>
             <div class="slider-item">
-              <div><a href="#" data-toggle="modal" data-target="#complementMiniModal"><img class="slider-img" src="i/favicons/2.4.jpg" alt=""></a></div>
+                <a href="#" data-toggle="modal" data-target="#modal-slider-image" data-whatever="i/favicons/slider4.jpg">
+                  <img class="slider-img" src="i/favicons/slider4.jpg" alt="">
+                </a>
             </div>
             <div class="slider-item">
-              <div><a href="#" data-toggle="modal" data-target="#complementMiniModal"><img class="slider-img" src="i/favicons/2.5.jpg" alt=""></a></div>
+                <a href="#" data-toggle="modal" data-target="#modal-slider-image" data-whatever="i/favicons/slider5.jpg">
+                  <img class="slider-img" src="i/favicons/slider5.jpg" alt="">
+                </a>
+            </div>
+            <div class="slider-item">
+                <a href="#" data-toggle="modal" data-target="#modal-slider-image" data-whatever="i/favicons/slider6.jpg">
+                  <img class="slider-img" src="i/favicons/slider6.jpg" alt="">
+                </a>
+            </div>
+            <div class="slider-item">
+                <a href="#" data-toggle="modal" data-target="#modal-slider-image" data-whatever="i/favicons/slider7.jpg">
+                  <img class="slider-img" src="i/favicons/slider7.jpg" alt="">
+                </a>
+            </div>
+            <div class="slider-item">
+                <a href="#" data-toggle="modal" data-target="#modal-slider-image" data-whatever="i/favicons/slider8.jpg">
+                  <img class="slider-img" src="i/favicons/slider8.jpg" alt="">
+                </a>
+            </div>
+            <div class="slider-item">
+                <a href="#" data-toggle="modal" data-target="#modal-slider-image" data-whatever="i/favicons/slider9.jpg">
+                  <img class="slider-img" src="i/favicons/slider9.jpg" alt="">
+                </a>
+            </div>
+            <div class="slider-item">
+                <a href="#" data-toggle="modal" data-target="#modal-slider-image" data-whatever="i/favicons/slider10.png">
+                  <img class="slider-img" src="i/favicons/slider10.png" alt="">
+                </a>
+            </div>
+            <div class="slider-item">
+                <a href="#" data-toggle="modal" data-target="#modal-slider-image" data-whatever="i/favicons/slider11.png">
+                  <img class="slider-img" src="i/favicons/slider11.png" alt="">
+                </a>
             </div>
           </div>
         </div>
@@ -172,12 +211,12 @@
 
 <!-- Complement mini -->
 <!-- Modal -->
-<div class="modal fade" id="complementMiniModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<div class="modal fade" id="modal-slider-image" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog" role="document" id="js-complement-mini-modal-dialog">
         <div class="modal-content complement-modal-content" id="js-complement-mini-modal-content">
             <div class="modal-body">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <a href="#" id="js-carousel-complement-mini"><img class="img-responsive" id="complementMiniModalImage" src="i/favicons/1.1.jpg" alt=""></a>
+                <a href="#" id="js-carousel-complement-mini"><img class="img-responsive" id="modal-slider-item-image" alt=""></a>
             </div>
             <!-- /.modal-body -->
         </div>
@@ -483,18 +522,25 @@
         })(document, window, "yandex_metrika_callbacks");
     </script>
 
-    <script type="text/javascript">
-      $(document).ready(function() {
-        $('.slider').slick({
-          dots: true,
-          infinite: true,
-          speed: 300,
-          autoplay: true,
-          slidesToShow: 1
-        });
+  <script type="text/javascript">
+  $(document).ready(function() {
+    $('.slider').slick({
+      dots: true,
+      infinite: true,
+      slidesToShow: 1,
+      autoplay: true
+    });
 
-      });
-    </script>
+    $('#modal-slider-image').on('show.bs.modal', function (event) {
+      var reference = $(event.relatedTarget) // reference that triggered the modal
+      var data = reference.data('whatever') // Extract info from data-* attributes
+      var modal = $(this)
+      $('#modal-slider-item-image').attr('src', data);
+      console.log(data)
+    });
+
+  });
+</script>
     <noscript><div><img src="https://mc.yandex.ru/watch/43855419" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
 </body>
