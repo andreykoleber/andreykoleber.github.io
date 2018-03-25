@@ -1,6 +1,6 @@
-<?php
+﻿<?php
 if((isset($_POST['user-name-input'])&&$_POST['user-name-input']!="")&&(isset($_POST['user-phone-input'])&&$_POST['user-phone-input']!="")){ 
-        $to = 'project_stickers@u0326665.isp.regruhosting.ru'; 
+        $to = 'sklad@9маябизнес.рф'; 
         $subject = 'Обратный звонок'; //Загаловок сообщения
         $message = '
                 <html>
@@ -17,7 +17,7 @@ if((isset($_POST['user-name-input'])&&$_POST['user-name-input']!="")&&(isset($_P
 }
 
 if((isset($_POST['leave-order-name-inpute'])&&$_POST['leave-order-name-inpute']!="")&&(isset($_POST['leave-order-phone-inpute'])&&$_POST['leave-order-phone-inpute']!="")){ 
-        $to = 'project_stickers@u0326665.isp.regruhosting.ru'; 
+        $to = 'sklad@9маябизнес.рф'; 
         $subject = 'Оставленная заявка'; 
         $message = '
                 <html>
@@ -35,7 +35,7 @@ if((isset($_POST['leave-order-name-inpute'])&&$_POST['leave-order-name-inpute']!
 
 
 if((isset($_POST['mini-complement-user-name'])&&$_POST['mini-complement-user-name']!="")&&(isset($_POST['mini-complement-user-phone'])&&$_POST['mini-complement-user-phone']!="")){ 
-        $to = 'project_stickers@u0326665.isp.regruhosting.ru'; 
+        $to = 'sklad@9маябизнес.рф'; 
         $subject = 'Оставленная заявка на миникомплект'; 
         $message = '
                 <html>
@@ -54,7 +54,7 @@ if((isset($_POST['mini-complement-user-name'])&&$_POST['mini-complement-user-nam
 
 
 if((isset($_POST['standard-complement-user-name'])&&$_POST['standard-complement-user-name']!="")&&(isset($_POST['standard-complement-user-phone'])&&$_POST['standard-complement-user-phone']!="")){ 
-        $to = 'project_stickers@u0326665.isp.regruhosting.ru'; 
+        $to = 'sklad@9маябизнес.рф'; 
         $subject = 'Оставленная заявка на стандартный'; 
         $message = '
                 <html>
@@ -73,7 +73,7 @@ if((isset($_POST['standard-complement-user-name'])&&$_POST['standard-complement-
 
 
 if((isset($_POST['optimal-complement-user-name'])&&$_POST['optimal-complement-user-name']!="")&&(isset($_POST['optimal-complement-user-phone'])&&$_POST['optimal-complement-user-phone']!="")){ 
-        $to = 'project_stickers@u0326665.isp.regruhosting.ru'; 
+        $to = 'sklad@9маябизнес.рф'; 
         $subject = 'Оставленная заявка на оптимальный комплект'; 
         $message = '
                 <html>
@@ -92,7 +92,7 @@ if((isset($_POST['optimal-complement-user-name'])&&$_POST['optimal-complement-us
 
 
 if((isset($_POST['huge-complement-user-name'])&&$_POST['huge-complement-user-name']!="")&&(isset($_POST['huge-complement-user-phone'])&&$_POST['huge-complement-user-phone']!="")){ 
-        $to = 'project_stickers@u0326665.isp.regruhosting.ru'; 
+        $to = 'sklad@9маябизнес.рф'; 
         $subject = 'Оставленная заявка на оптовый комплект'; 
         $message = '
                 <html>
