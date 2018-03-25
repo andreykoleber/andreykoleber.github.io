@@ -222,13 +222,6 @@
     width: 1150px!important
 }
 
-.complement-modal-dialog-square-image {
-    width: 900px
-}
-
-.complement-modal-content-square-image {
-    height: 900px
-}
 
 .complement-modal-square-image {
     width: 850px!important;
@@ -237,6 +230,12 @@
 
 .about-us-section {
     padding-bottom: 20px;
+}
+
+.modal-slider-image {
+  max-height: 900px !important;
+  width: auto;
+  margin: 0 auto;
 }
 
 .about-us-section-title {
