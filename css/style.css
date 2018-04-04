@@ -109,8 +109,8 @@
 }
 
 .first-price {
-  text-decoration: line-through;
   margin-left: 34px;
+  text-decoration: line-through;
 }
 
 .section-all-about-business-in-video-format {
@@ -122,8 +122,8 @@
 }
 
 .section-all-about-business-in-video-format-first-row {
-  margin-top: 4%;
   margin-bottom: 3%;
+  margin-top: 2%;
 }
 
 .section-all-about-business-in-video-format-second-row {
@@ -131,6 +131,9 @@
   padding-bottom: 4%;
 }
 
+.background-container {
+  margin: 0 auto;
+}
 
 .production-section-video {
      padding-bottom: 60%;
@@ -158,9 +161,9 @@
 
 .complement-section {
     background: #f1f1f1;
-    width: 100%;
+    display: table;
     margin: 0 auto;
-    display: table
+    width: 100%;
 }
 
 .complement-section__background {
@@ -353,12 +356,20 @@
 }
 
 .page-header {
-    margin-top: 0!important
+    margin-top: 0!important;
 }
 
 @media (min-width:1200px) {
     .modal-lg {
-        width: 1200px!important
+        width: 1200px!important;
+    }
+}
+
+@media (max-width: 768px) {
+    .production-section-wrapper,
+    .section-all-about-business-in-video-format,
+    .how-we-work-section {
+      width: 1170px;
     }
 }
 
