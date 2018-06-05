@@ -3,565 +3,97 @@
 
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" type="text/css" href="slick/slick.css" />
-  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
-  <link rel="stylesheet" href="https://cdn.envybox.io/widget/cbk.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
-
-  <meta name="author" content="">
-  <meta name="keywords" content="">
-  <meta name="description" content="">
-
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="HandheldFriendly" content="True">
-  <meta http-equiv="cleartype" content="on">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes"> -->
-
-  <!-- Favicons for all devices -->
-
-  <link rel="shortcut icon" href="i/favicons/site-icon.ico" />
-  <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="msapplication-TileImage" content="i/favicons/mstile-144x144.png">
-  <meta name="theme-color" content="#ffffff">
-
-
-  <title>Наклейки на 9 мая</title>
-
-  <!--[if lt IE 9]>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <![endif]-->
-
-  <!-- Yandex.Metrika counter -->
-  <script type="text/javascript">
-    (function(d, w, c) {
-      (w[c] = w[c] || []).push(function() {
-        try {
-          w.yaCounter48274010 = new Ya.Metrika({
-            id: 48274010,
-            clickmap: true,
-            trackLinks: true,
-            accurateTrackBounce: true,
-            webvisor: true
-          });
-        } catch (e) {}
-      });
-
-      var n = d.getElementsByTagName("script")[0],
-        s = d.createElement("script"),
-        f = function() {
-          n.parentNode.insertBefore(s, n);
-        };
-      s.type = "text/javascript";
-      s.async = true;
-      s.src = "https://mc.yandex.ru/metrika/watch.js";
-
-      if (w.opera == "[object Opera]") {
-        d.addEventListener("DOMContentLoaded", f, false);
-      } else {
-        f();
-      }
-    })(document, window, "yandex_metrika_callbacks");
-  </script>
-  <noscript><div><img src="https://mc.yandex.ru/watch/48274010" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-  <!-- /Yandex.Metrika counter -->
-
 </head>
 
 <body>
 
-
-  <div class="nav-container">
-    <div class="container-non-responsive">
-      <div class="logo-container">
-        <a href="#" class="logo" data-toggle="modal" data-target="#orderCallForm">
-      <img src="i/favicons/logo.png" alt="" width="500" height="90">
-    </a>
+  <section class="header-section">
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Название</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iste ipsa vero aperiam numquam, a cum provident fugiat consectetur repudiandae facere ea quia quibusdam quisquam dolorum nobis. Officiis, nihil, voluptates!</p>
       </div>
-      <nav class="nav">
-        <a href="tel: 89136766048" class="nav__item nav__item-tel">8 (913) 676-60-48</a>
-        <img src="i/favicons/whatsapp.png" alt="" width="29" height="29" class="nav-social-icons">
-        <img src="i/favicons/viber-icon.ico" alt="" width="29" height="29" class="nav-social-icons">
-        <a href="#" class="btn btn-default btn-lg nav__item nav__item-btn" data-toggle="modal" data-target="#orderCallForm">Закзать звонок</a>
-      </nav>
     </div>
-  </div>
+  </section>
 
-    <div class="production-section-wrapper">
-      <section class="production-section">
-        <div class="container-non-responsive">
-          <div class="row stickers_production">
-            <div class="col-xs-12">
-              <h1 class="text-center text-bold">Заработайте на празднике от 45 000 рублей</h1>
-              <p class="text-center">Всего за 3 недели с помощью готового комплекта наклеек</p>
-            </div>
-          </div>
-          <div class="row stickers_form">
-            <div class="col-xs-8">
-              <div class="embed-responsive embed-responsive-16by9 production-section-video">
-                <iframe src="https://www.youtube.com/embed/ru3zZ89vQ7I" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-              </div>
-            </div>
-            <div class="col-xs-4">
-              <!-- /.col-sm-10 -->
-              <div class="thumbnail production-section__thumbnail">
-                <div class="caption">
-                  <form id="leave-order-form" class="form-horizontal leave-order-form">
-                    <div class="form-group">
-                      <h2 class="text-center text-bold">Оставьте заявку</h2>
-                      <br>
-                      <p class="text-center">на комплект наклеек сейчас и получите сидку 30% до 1 апреля</p>
-                      <br>
-                      <div class="col-xs-12">
-                        <input type="text" name="leave-order-name-inpute" class="form-control input-lg" id="inputName" placeholder="Имя" required="required">
-                      </div>
-                    </div>
-                    <!-- /.form-group -->
-                    <div class="form-group">
-                      <div class="col-xs-12">
-                        <input type="tel" name="leave-order-phone-inpute" class="form-control input-lg" id="inputPhone" placeholder="Номер телефона" required="required">
-                      </div>
-                    </div>
-                    <br>
-                    <!-- /.form-group -->
-                    <div class="form-group">
-                      <div class="col-xs-12">
-                        <input type="submit" class="btn btn-default btn-lg col-xs-12" id="btn-order-call-2" value="Оставить заявку">
-                      </div>
-                    </div>
-                    <!-- /.form-group -->
-                  </form>
-                </div>
-              </div>
-              <!-- /.thumbnail -->
-            </div>
-          </div>
-          <div class="row production-section-get-discount">
-            <div class="col-xs-8">
-              <h4 class="text-red text-center text-bold">Акция! Приведи друга и получи скидку в 500 рублей на готовый комплект наклеек!</h4>
-            </div>
-            <div class="col-xs-4"></div>
-          </div>
-        </div>
-      </section>
-    </div>
-
-
-  <section class="section-kit-composition">
-    <div class="container-non-responsive">
-      <div class="row section-kit-composition_title_row">
-        <div class="col-xs-12">
-          <h1 class="text-center text-bold">Состав комелекта</h1>
-        </div>
-      </div>
+  <section class="main-section">
+    <div class="container">
       <div class="row">
-        <div class="col-xs-6">
-          <div class="slider-container">
-            <div class="slider">
-              <div class="slider-item">
-                <a href="#" data-toggle="modal" data-target="#modal-slider-image" data-whatever="i/favicons/slider1.png">
-                  <img class="slider-img" src="i/favicons/slider1.png" alt="">
-                </a>
-              </div>
-              <div class="slider-item">
-                <a href="#" data-toggle="modal" data-target="#modal-slider-image" data-whatever="i/favicons/slider2.png">
-                  <img class="slider-img" src="i/favicons/slider2.png" alt="">
-                </a>
-              </div>
-              <div class="slider-item">
-                <a href="#" data-toggle="modal" data-target="#modal-slider-image" data-whatever="i/favicons/slider3.png">
-                  <img class="slider-img" src="i/favicons/slider3.png" alt="">
-                </a>
-              </div>
-              <div class="slider-item">
-                <a href="#" data-toggle="modal" data-target="#modal-slider-image" data-whatever="i/favicons/slider4.png">
-                  <img class="slider-img" src="i/favicons/slider4.png" alt="">
-                </a>
-              </div>
-              <div class="slider-item">
-                <a href="#" data-toggle="modal" data-target="#modal-slider-image" data-whatever="i/favicons/slider5.png">
-                  <img class="slider-img" src="i/favicons/slider5.png" alt="">
-                </a>
-              </div>
-              <div class="slider-item">
-                <a href="#" data-toggle="modal" data-target="#modal-slider-image" data-whatever="i/favicons/slider6.png">
-                  <img class="slider-img" src="i/favicons/slider6.png" alt="">
-                </a>
-              </div>
-              <div class="slider-item">
-                <a href="#" data-toggle="modal" data-target="#modal-slider-image" data-whatever="i/favicons/slider7.png">
-                  <img class="slider-img" src="i/favicons/slider7.png" alt="">
-                </a>
-              </div>
-              <div class="slider-item">
-                <a href="#" data-toggle="modal" data-target="#modal-slider-image" data-whatever="i/favicons/slider8.png">
-                  <img class="slider-img" src="i/favicons/slider8.png" alt="">
-                </a>
-              </div>
-              <div class="slider-item">
-                <a href="#" data-toggle="modal" data-target="#modal-slider-image" data-whatever="i/favicons/slider9.png">
-                  <img class="slider-img" src="i/favicons/slider9.png" alt="">
-                </a>
-              </div>
-              <div class="slider-item">
-                <a href="#" data-toggle="modal" data-target="#modal-slider-image" data-whatever="i/favicons/slider10.png">
-                  <img class="slider-img" src="i/favicons/slider10.png" alt="">
-                </a>
-              </div>
-              <div class="slider-item">
-                <a href="#" data-toggle="modal" data-target="#modal-slider-image" data-whatever="i/favicons/slider11.png">
-                  <img class="slider-img" src="i/favicons/slider11.png" alt="">
-                </a>
-              </div>
-            </div>
+        <div class="col-md-8">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/C0DPdy98e4c" allow="autoplay; encrypted-media" allowfullscreen></iframe>
           </div>
         </div>
-        <div class="col-xs-6">
-          <p><span class="star">&#x2605;</span>&nbsp;318 наклеек: 244 напечатанные наклейки 74 плоттерные надписи</p>
-          <p><span class="star">&#x2605;</span>&nbsp;Лушчие наклейки по версии продаж 3 лет</p>
-          <p><span class="star">&#x2605;</span>&nbsp;Разнообразные наклейки больших размеров в отличном качестве</p>
-          <p><span class="star">&#x2605;</span>&nbsp;Все наклейки вырезаны по контуру</p>
-          <p><span class="star">&#x2605;</span>&nbsp;Баннер 1.5x1 м<sup>2</sup> и маленький баннер на лобовое стекло</p>
-          <p><span class="star">&#x2605;</span>&nbsp;Баннер с ассортиментом наклеек</p>
-          <p><span class="star">&#x2605;</span>&nbsp;Георгиевские ленты 100 штук по 50 см.</p>
-          <p><span class="star">&#x2605;</span>&nbsp;Ракель для поклейки наклеек</p>
-          <p><span class="star">&#x2605;</span>&nbsp;Выручка с продажи комплекта 44 500 рублей</p>
-          <p><span class="star">&#x2605;</span>&nbsp;Окупаемость 5,5 раз</p>
-          <p><span class="star">&#x2605;</span>&nbsp;Площадь: 12 м<sup>2</sup></p>
-          <div class="row section-kit-composition-discount">
-            <div class="col-xs-6">
-              <h2 class="first-price text-bold">10 400 рублей</h2>
-              <h2 class="text-red text-bold"><span class="text-intend">8</span> 000 рублей</h2>
-            </div>
-            <div class="col-xs-6">
-              <a href="#" class="btn btn-default section-kit-composition-btn" data-toggle="modal" data-target="#orderCallForm">Заказать звонок</a>
-            </div>
+        <div class="col-md-4">
+          <div class="try-free-block">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, mollitia soluta fugiat id eius non iusto laudantium veritatis expedita corrupti illo tenetur sed, distinctio beatae, rem aut debitis ut quod.</p>
+            <p class="try-free-paragraph"><a class="btn btn-default btn-lg btn-try-free" data-toggle="modal" data-target="#myModal" href="#" role="button">Попробовать бесплатно</a></p>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Complement mini -->
-  <!-- Modal -->
-  <div class="modal fade" id="modal-slider-image" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog modal-lg" role="document" id="js-complement-mini-modal-dialog">
-      <div class="modal-content complement-modal-content" id="js-complement-mini-modal-content">
-        <div class="modal-body">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <a href="#" id="js-carousel-complement-mini"><img class="img-responsive modal-slider-image" id="modal-slider-item-image" alt=""></a>
-        </div>
-        <!-- /.modal-body -->
+
+
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel"></h4>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="user-name" class="control-label">Имя:</label>
+            <input type="text" class="form-control" id="user-name" placeholder="Имя">
+          </div>
+          <div class="form-group">
+            <label for="user-email">Email</label>
+            <input type="email" class="form-control" id="user-email" placeholder="Email">
+          </div>
+          <div class="form-group">
+            <label for="user-phone" class="control-label">Телефон:</label>
+            <input type="text" class="form-control" id="user-phone" placeholder="+7(999) 999 99-99">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default btn-lg" data-dismiss="modal" data-toggle="modal" data-target="#accessGivenModal">Побробовать бесплатно</button>
       </div>
     </div>
   </div>
-  <!-- Complement mini -->
+</div>
 
 
 
-
-
-  <section class="section-all-about-business-in-video-format">
-    <div class="container-non-responsive">
-      <div class="row section-all-about-business-in-video-format-row-title">
-        <div class="col-xs-12">
-          <h1 class="text-center text-bold">Все о бизнесе 9 мая в видеоформате</h1>
-        </div>
+<!-- Modal -->
+<div class="modal fade" id="accessGivenModal" tabindex="-1" role="dialog" aria-labelledby="accessGivenModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="accessGivenModalLabel">Доступ открыт</h4>
       </div>
-      <div class="row section-all-about-business-in-video-format-first-row">
-        <div class="col-xs-6">
-          <div class="embed-responsive embed-responsive-16by9 production-section-video">
-            <iframe src="https://www.youtube.com/embed/r0IAFU3Sp7c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-        </div>
-        <div class="col-xs-6">
-          <div class="embed-responsive embed-responsive-16by9 production-section-video">
-            <iframe src="https://www.youtube.com/embed/-dSxmdYc9nE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-      <div class="row section-all-about-business-in-video-format-second-row">
-        <div class="col-xs-6">
-          <div class="embed-responsive embed-responsive-16by9 production-section-video">
-            <iframe src="https://www.youtube.com/embed/1jbZgi2CUQg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-        </div>
-        <div class="col-xs-6">
-          <div class="embed-responsive embed-responsive-16by9 production-section-video">
-            <iframe src="https://www.youtube.com/embed/C0DPdy98e4c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-
-  <section class="about-us-section">
-    <div class="container-non-responsive">
-      <div class="page-header">
-        <h1 class="text-center text-bold about-us-section-title">О нас</h1>
-      </div>
-      <div class="row">
-        <div class="col-xs-4">
-          <div class="thumbnail text-center">
-            <img src="i/favicons/about-us.jpg" alt="">
-          </div>
-        </div>
-        <div class="col-xs-8 about-us-section__description">
-          <p>Привет! Меня зовут <a href="https://vk.com/turenin" target="_blank">Игорь Туренин</a>, мне 23 года, я живу в городе Омске и уже не первый год занимаюсь продажей наклеек к 9 мая.</p>
-          <p>Вообще меня уже давно интересует бизнес-тематика. Я всегда искал новые способы заработать быстро и много с минимальными вложениями (я обычный студент и лишних денег на рисковый бизнес нет). Идея о наклейках к 9 мая оказалась самой крутой и,
-            конечно же, очень прибыльной.</p>
-          <p>Все началось весной в 2015 году. На тот момент мой друг Сергей уже занимался виниловыми наклейками и мог сам отрисовать все макеты. Это подтолкнуло нас к воплощению идеи и созданию собственного бизнеса.</p>
-          <p>Первая наша партия была очень маленькая. 28 апреля вечером мы поехали с готовыми наклейками к одному из крупных гипермаркетов. Мы заработали 1600 рублей всего за пару часов, тем самым окупив половину затрат. На следующий день мы полностью окупили
-            вложения, преумножив доход в 3,5 раза – 5850 рублей.</p>
-          <p>Наклейки раскупали быстро, очереди выстраивались до 7 машин, и мы ещё 4 раза заказывали новые партии. Бонусом для наших клиентов была бесплатная поклейка (мы клеили наклейки ровно и без косяков, на самом деле, это не сложно).</p>
-          <p>Каждый день мы зарабатывали от 5 тысяч до 8 тысяч рублей, НО 8 МАЯ доход составил 16900 рублей за один день на одной точке. В итоге мы заработали 68 250 рублей с одной точки за две недели! Согласитесь, это весьма неплохие деньги для обычных
-            студентов.
-          </p>
-          <p>Для увеличения продаж в следующем году мы уже стояли на разных точках, а так же продавали готовые комплекты нашим знакомым, а кто по каким-либо причинам не мог купить у нас готовый комплект мы предлагали поработать на нас.</p>
-          <p>По итогу мы заработали приблизительно по 87 000 рублей на человека.</p>
-          <p>В 2017 году мы открыли 2 направления, продавали теперь не только в розницу, но и мелким оптом:</p>
-          <p>1. Розница - стоим на машинах, на точках.</p>
-          <p>2. Мелкий опт в городе — это продажа наклеек в СТО, в магазин автозапчастей, на автомойках и стойках в Торговых центрах.</p>
-          <p>Честно сказать на СТО, в магазинах автозапчастей и автомойках заработать много не получилось, так как они не очень охотно соглашались на сотрудничество. Но всё же заказы были. В торговых центрах дела тоже шли не очень, так как ни кто не хотел
-            ставить стойку на полмесяца. Но всё равно мы поставили стойку в один из торговых центов города, на пробу.</p>
-          <p>Так же мы начали продавать комплекты наклеек в другие города. И по итогу заработали около 110 000 тысяч рублей на человека.</p>
-          <p>В этом году мы учли ошибки в комплектах прошлых лет. Мы убрали все комплекты кроме одного. Так как мы поняли, что конкуренция поднялась и уже не получится продавать по 30-40 наклеек в день, как это было в 2015-16 годах. Тем самым уже не выгодно
-            покупать комплекты, в которых 500-700 наклеек. В нашем комплекте всего 318 наклеек, но это самые продаваемые наклейки прошлых лет. Окупаемость данного комплекта 3 дня. Также легче купить готовый комплект у нас, чем пытаться собрать свой. На
-            эту тему у меня есть <a href="https://www.youtube.com/watch?time_continue=1&v=-dSxmdYc9nE" target="_blank">видео на YouTube</a>. Всем желаю удачи в этом сезонном бизнесе.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="how-we-work-section">
-    <div class="container-non-responsive">
-      <div class="how-we-work-section-background">
-        <div class="page-header text-center">
-          <h1 class="text-bold">Как мы работаем</h1>
-        </div>
-        <div class="how-we-work-section-image text-center">
-          <img src="i/favicons/how-we-work.png" alt="" width="1066" height="250">
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section-make-money-on-celebration">
-    <div class="container-non-responsive">
-      <div class="row section-make-money-on-celebration_row_title">
-        <div class="col-xs-12">
-          <h1 class="text-center text-bold">Заработайте на празднике от 45 000 рублей</h1>
-          <p class="text-center">Всего за 3 недели с помощью готового комплекта наклеек</p>
-        </div>
-      </div>
-      <div class="row section-make-money-on-celebration_form">
-        <div class="col-xs-7 col-xs-offset-1">
-          <img src="i/favicons/intro-image.png" height="480" width="auto" alt="">
-        </div>
-        <div class="col-xs-4">
-          <div class="thumbnail section-make-money-on-celebration_thumbnail">
-            <div class="caption">
-              <form id="form-order-mini-complement" class="form-horizontal">
-                <div class="form-group">
-                  <h2 class="text-center text-bold">Оставьте заявку</h2>
-                  <br>
-                  <p class="text-center">на комплект наклеек сейчас и получите сидку 30% до 1 апреля</p>
-                  <br>
-                  <div class="col-xs-12">
-                    <input type="text" name="leave-order-name-inpute" class="form-control input-lg" id="mini-complement-user-name" placeholder="Имя" required="required">
-                  </div>
-                </div>
-                <div class="form-group">
-                  <div class="col-xs-12">
-                    <input type="tel" name="leave-order-phone-inpute" class="form-control input-lg" id="mini-complement-user-phone" placeholder="Номер телефона" required="required">
-                  </div>
-                </div>
-                <br>
-                <div class="form-group">
-                  <div class="col-xs-12">
-                    <input type="submit" class="btn btn-default btn-lg col-xs-12" id="btn-order-call-2" value="Оставить заявку">
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row section-make-money-on-celebration-get-discount">
-        <div class="col-xs-8">
-          <h4 class="text-red text-center text-bold">Акция! Приведи друга и получи скидку в 500 рублей на готовый комплект наклеек!</h4>
-        </div>
-        <div class="col-xs-4"></div>
-      </div>
-    </div>
-  </section>
-
-
-
-  <!-- JS section -->
-  <section class="footer-section">
-    <div class="container-non-responsive">
-      <div class="footer-section__background">
-        <br>
-        <div class="row">
-          <div class="col-xs-4 text-center">
-            <div class="vk-button">
-              <a href="https://vk.com/sticker_opt" target="_blank" class="pull-right"><img src="i/favicons/my_vk.png" alt="" height="40" width="170"></a>
-            </div>
-          </div>
-          <div class="col-xs-4 text-center">
-            <p></p>
-            <p><a href="mail:9may_stickers@mail.ru">9may_stickers@mail.ru</a></p>
-            <p><a href="#" data-toggle="modal" data-target="#modalPrivacyPolicy">Политика конфиденциальности</a></p>
-          </div>
-          <div class="col-xs-4 footer-order-call">
-            <ul class="footer-section-social-list">
-              <li><a href="tel:89045848823" class="footer-section-tel">8(913)676-60-48</a></li>
-              <li><img src="i/favicons/whatsapp.png" alt="" width="29" height="29"></li>
-              <li><img src="i/favicons/viber-icon.ico" alt="" width="29" height="29"></li>
-            </ul>
-            <a href="#" class="btn btn-default footer-section-btn" data-toggle="modal" data-target="#orderCallForm">Оставить заявку</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Modal -->
-  <div class="modal fade" id="modalPrivacyPolicy" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h3 class="modal-title text-bold text-center" id="myModalLabel">Политика конфиденциальности</h3>
-        </div>
-        <div class="modal-body">
-          <p class="text-justify">Наш интернет-магазин уважительно относится к правам клиента. Соблюдается строгая конфиденциальность при оформлении заказа. Сведения надёжно сохраняются и защищены от передачи. Согласием на обработку данных клиента исключительно с целью оказания
-            услуг является размещение заказа на сайте. К персональным данным относится личная информация о клиенте: домашний адрес; имя, фамилия, отчество; сведения о рождении; имущественное, семейное положение; личные контакты (телефон, электронная почта)
-            и прочие сведения, которые перечислены в Законе РФ № 152-ФЗ «О персональных данных» от 27 июля 2006 г. Клиент вправе отказаться от обработки персональных данных. Нами в данном случае гарантируется удаление с сайта всех персональных данных
-            в трёхдневный срок в рабочее время. Подобный отказ клиент может оформить простым электронным письмом на адрес, указанный на странице нашего сайта.</p>
-        </div>
+      <div class="modal-body">
+        <p>Проверьти свою почту</p>
       </div>
     </div>
   </div>
-
-  <!-- Modal -->
-  <div class="modal fade" id="thanksForOrder" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h3 class="modal-title text-bold text-center" id="myModalLabel">Спасибо с Ваш заказ!</h3>
-        </div>
-        <div class="modal-body">
-          <p class="text-justify">В случае ошибки просто оформите заказ повторно, мы перезвоним Вам в ближайшее время.</p>
-        </div>
-      </div>
-    </div>
-  </div>
+</div>
 
 
 
-
-
-  <!-- Modal -->
-  <div class="modal fade" id="orderCallForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content modal-sm orderCallForm">
-        <div class="modal-body">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <form id="orderBackCallForm">
-            <div class="form-group">
-              <label for="user-name-input">Ваше имя</label>
-              <input type="text" class="form-control" id="user-name-input" name="user-name-input" placeholder="Имя" required="required">
-            </div>
-            <div class="form-group">
-              <label for="user-phone-input">Ваш номер телефона</label>
-              <input type="text" class="form-control" id="user-phone-input" name="user-phone-input" placeholder="Номер телефона" required="required">
-            </div>
-            <div class="modal-order-call text-center">
-              <input type="submit" class="btn btn-default" value="Заказать звонок">
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="slick/slick.min.js"></script>
-  <script src="js/main.js"></script>
-  <script type="text/javascript" src="//vk.com/js/api/openapi.js?143"></script>
-
-  <!-- VK Widget -->
-
-  <div id="vk_community_messages"></div>
-  <script type="text/javascript">
-    VK.Widgets.CommunityMessages("vk_community_messages", 141606625, {
-      tooltipButtonText: "Есть вопрос?"
-    });
-  </script>
-
-
-
-  <!-- Yandex.Metrika counter -->
-  <script type="text/javascript">
-    (function(d, w, c) {
-      (w[c] = w[c] || []).push(function() {
-        try {
-          w.yaCounter43855419 = new Ya.Metrika({
-            id: 43855419,
-            clickmap: true,
-            trackLinks: true,
-            accurateTrackBounce: true,
-            webvisor: true
-          });
-        } catch (e) {}
-      });
-
-      var n = d.getElementsByTagName("script")[0],
-        s = d.createElement("script"),
-        f = function() {
-          n.parentNode.insertBefore(s, n);
-        };
-      s.type = "text/javascript";
-      s.async = true;
-      s.src = "https://mc.yandex.ru/metrika/watch.js";
-
-      if (w.opera == "[object Opera]") {
-        d.addEventListener("DOMContentLoaded", f, false);
-      } else {
-        f();
-      }
-    })(document, window, "yandex_metrika_callbacks");
-  </script>
-
-  <script type="text/javascript">
-    $(document).ready(function() {
-      $('.slider').slick({
-        dots: true,
-        infinite: true,
-        slidesToShow: 1,
-        autoplay: true
-      });
-
-      $('#modal-slider-image').on('show.bs.modal', function(event) {
-        var reference = $(event.relatedTarget) // reference that triggered the modal
-        var data = reference.data('whatever') // Extract info from data-* attributes
-        var modal = $(this)
-        $('#modal-slider-item-image').attr('src', data);
-        console.log(data)
-      });
-
-    });
-  </script>
-  <noscript><div><img src="https://mc.yandex.ru/watch/43855419" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-  <!-- /Yandex.Metrika counter -->
-  <script type="text/javascript" src="https://cdn.envybox.io/widget/cbk.js?cbk_code=92ad59ed17af49fa5ef691a53ab9df84" charset="UTF-8" async></script>
 </body>
 
 </html>
