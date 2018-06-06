@@ -1,7 +1,19 @@
-.header-section {
+.header {
+  background: #aaa;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.description-section {
   margin-top: 30px;
 }
 
 .try-free-block {
   font-size: 18px;
+}
+
+.footer {
+  background: #aaa;
+  height: 80px;
+  margin-top: 40px;
 }
